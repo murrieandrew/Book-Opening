@@ -9,9 +9,9 @@ h1 {
     font-size: em;
 }
 
-.container + h1
+.container
 {
-  max-width: 1rem;
+  max-width: fit-content;
   margin: 100px auto;
   display: flexbox;
   flex-wrap: wrap;
